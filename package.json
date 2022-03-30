@@ -8,7 +8,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "passport": "^0.5.2",
+    "passport-facebook": "^3.0.0",
+    "passport-github": "^1.1.0"
   },
   "devDependencies": {},
   "repository": {
@@ -20,5 +23,5 @@
     "url": "https://github.com/iamquiroz/passport-auth-node-js-app/issues"
   },
   "homepage": "https://github.com/iamquiroz/passport-auth-node-js-app#readme",
-  "description": ""
+  "description": "Implementing authentication via Facebook and GitHub in a Node.js web application. For this, we’ll be using Passport, an authentication middleware for Node.js."
 }
